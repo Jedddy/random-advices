@@ -1,0 +1,27 @@
+.advice-panel {
+    margin-top: 8vh;
+    height: 250px;
+    width: 350px;
+}
+
+.advice-panel button {
+    border: none;
+    background-color: #16FF00;
+    height: 4em;
+    border-radius: 1em;
+}
+
+.advice-panel button:hover {
+    background-color: #1fc410;
+}
+
+.advice-panel button:active {
+    border: 1px solid #2E4F4F ;
+}
+
+.advice {
+    border: 3px solid #0E8388;
+    border-radius: 1em;
+    margin-bottom: 1em;
+    padding: 1em;
+}
