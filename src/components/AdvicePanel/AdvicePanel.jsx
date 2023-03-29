@@ -18,7 +18,7 @@ export default function AdvicePanel() {
                 <p>Here's an advice for you.</p>
                 { isLoading && <div> Loading... </div> }
                 { error && <div> An error occured... </div> }
-                <p> { data && JSON.stringify(data.slip.advice) } </p>
+                <p> { data && data.slip.advice } </p>
             </div>
             <button onClick={clickHandler}>Generate Advice</button>
         </div>
